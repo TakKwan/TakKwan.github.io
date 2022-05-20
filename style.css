@@ -1,7 +1,17 @@
 body {
   background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
 }
 
-.profile .block{
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile .pic {
   max-width: 200px;
+  max-height: 200px;
+  border-radius: 200px;
 }
