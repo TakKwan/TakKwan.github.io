@@ -6,8 +6,7 @@ body {
 
 .profile {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
 .profile .pic {
@@ -23,4 +22,18 @@ body {
 .project {
   display: flex;
   margin-top: 10px;
+}
+
+.description_block {
+  padding: 10px;
+}
+
+.profile .description_block {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.name, .title {
+  margin: 0;
 }
